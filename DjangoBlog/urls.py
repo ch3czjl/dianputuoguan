@@ -39,7 +39,7 @@ handler500 = 'blog.views.server_error_view'
 handle403 = 'blog.views.permission_denied_view'
 urlpatterns = [
     url(r'^admin/', admin_site.urls),
-    url(r'^loginsite/', login_site.urls),
+    url(r'^dianptg/', dianptg.urls),
     url(r'', include('blog.urls', namespace='blog')),
     url(r'mdeditor/', include('mdeditor.urls')),
     url(r'', include('comments.urls', namespace='comment')),
