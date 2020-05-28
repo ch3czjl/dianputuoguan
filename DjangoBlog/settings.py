@@ -59,7 +59,8 @@ INSTALLED_APPS = [
     'oauth',
     'servermanager',
     'owntracks',
-    'compressor'
+    'compressor',
+    'dianptg'
 ]
 
 MIDDLEWARE = [
