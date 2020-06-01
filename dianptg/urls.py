@@ -22,5 +22,5 @@ from haystack.views import SearchView
 
 app_name = "dianptg"
 urlpatterns = [
-    path(r'',views.post_list,name='post_list'),
+    path('dianptg/post_list/',views.post_list),
     ]
