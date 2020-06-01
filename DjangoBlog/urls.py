@@ -40,7 +40,7 @@ handle403 = 'blog.views.permission_denied_view'
 urlpatterns = [
     url(r'^admin/', admin_site.urls),
     # url(r'^dianptg/',dianptg.urls),
-    path('', include(dianptg.urls,namespace='dianptg')),
+    path('dianptg/', include('dianptg.urls')),
     url(r'', include('blog.urls', namespace='blog')),
     url(r'mdeditor/', include('mdeditor.urls')),
     url(r'', include('comments.urls', namespace='comment')),
