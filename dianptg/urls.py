@@ -24,6 +24,6 @@ app_name = "dianptg"
 urlpatterns = [
     path(
         r'',
-        views.IndexView.as_view(),
-        name='index'),
+        views.post_list,
+        name='post_list'),
     ]
