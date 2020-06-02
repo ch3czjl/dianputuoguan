@@ -128,6 +128,7 @@
 
             {% else %}
                 <li><a href="{% url "account:login" %}" rel="nofollow">登录</a>
+                <a href="{% url "account:register" %}">还没有账号？点此注册</a>
             {% endif %}
             {% if user.is_superuser %}
                 <li><a href="{% url "blog:refresh" %}" target="_blank">刷新缓存</a></li>
