@@ -1,9 +1,13 @@
+#-*- coding: UTF-8 -*-
+
 # GET /api/shop/v2/shopItem/queryShopItemFirstPage?orderByType=6&shopId=69954&itemType=3&pageIndex=1&pageSize=20 HTTP/1.1
 # /api/shop/v2/shopItem/queryShopItemFirstPage?orderByType=6&itemType=3&shopId=83271&pageIndex=1&pageSize=10'
 # https://h5.wanwudezhi.com/mall-web/shop/index?shopId=83271&__HgWtwYU=1591668118226&rtp=bw0.w0.0.0.Ikt6oB1591668115216&token=Wwdz%20eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxZXk4cHMiLCJjcmVhdGVkIjoxNTkxNjY4MDYxMjM4LCJleHAiOjE1OTIyNzI4NjF9.HA0VQnOC939V_T8Jw2kycZl5uN6g2Sbb38GOPMh9jFr-dQAUqgJmJxTjQNnfplZsYdII3Ya7eCIRdHOpJ7E34A&__nh=64.00',
 # GET /api/shop/v2/shopItem/queryShopItemFirstPage?orderByType=4&shopId=19007&itemType=3&pageIndex=1&pageSize=20 HTTP/1.1
 
-#coding:UTF-8
+
+
+
 import json
 import requests
 import datetime,time
