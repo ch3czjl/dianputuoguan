@@ -5,4 +5,4 @@ def post_list(request):
     return render(request, "post_list.html", {})
 
 def bangdingview(request):
-    return render(reuquest,"",{})
+    return render(reuquest,"paimaipin.html",{})
