@@ -15,7 +15,8 @@
 import datetime
 import time
 import logging
-from ipware.ip import get_real_ip
+# from ipware.ip import get_real_ip
+# import get_real_ip
 from DjangoBlog.utils import cache
 from blog.documents import ELASTICSEARCH_ENABLED, ElaspedTimeDocumentManager
 

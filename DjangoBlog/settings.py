@@ -34,7 +34,8 @@ DEBUG = True
 TESTING = len(sys.argv) > 1 and sys.argv[1] == 'test'
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['*', '127.0.0.1', 'tuoguan.kaoshizhan.cn']
+ALLOWED_HOSTS = ['127.0.0.1','tuoguan.kaoshizhan.cn']
+# ALLOWED_HOSTS = ['127.0.0.1', 'tuoguan.kaoshizhan.cn']
 # Application definition
 
 

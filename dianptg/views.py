@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .forms import RegisterForm, LoginForm
+# from .forms import RegisterForm, LoginForm
 
 # Create your views here.
 def post_list(request):
