@@ -12,16 +12,17 @@
 @file: urls.py
 @time: 2016/11/2 下午7:15
 """
-
+from django.conf.urls import url
 from django.urls import path
-from django.views.decorators.cache import cache_page
 from . import views
-from haystack.forms import ModelSearchForm
-from haystack.query import SearchQuerySet
-from haystack.views import SearchView
+from .views import bangdingview
+from django.utils.decorators import method_decorator
+
+
 
 app_name = "dianptg"
+
 urlpatterns = [
     path('',views.post_list),
-    # url(r'^bangdingview/$',views.bangdingview.as_view(success_url="/"),name='bangdingview'),
+    url(r'^bangding/$',views.bangdingview.as_view(success_url="/"),name='bangding'),
     ]
