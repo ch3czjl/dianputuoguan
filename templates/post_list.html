@@ -13,11 +13,7 @@
 
                     <form class="form-signin" action="{% url 'dianptg:bangding' %}" method="post">
                         {% csrf_token %}
-                        {{ form.non_field_errors }}
-                        {% for field in form %}
-                            {{ field }}
-                            {{ field.errors }}
-                        {% endfor %}
+
 
 
                         <button class="btn btn-lg btn-primary btn-block" type="submit">绑定</button>
