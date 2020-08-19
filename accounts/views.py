@@ -19,6 +19,7 @@ from django.views.decorators.debug import sensitive_post_parameters
 from django.utils.http import is_safe_url
 from DjangoBlog.utils import send_email, get_md5, get_current_site
 from django.conf import settings
+from .models import BlogUser
 
 logger = logging.getLogger(__name__)
 

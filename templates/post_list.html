@@ -9,24 +9,19 @@
 
         <div>
             <p>请输入店铺名</p>
-                <div class="card card-signin">
+                <div class="card card-signin0">
 
-                    <form class="form-signin" action="{% url 'dianptg:bangding' %}" method="post">
+                    <form class="form-signin0" action="/adddianpudatebase/" method="post">
                         {% csrf_token %}
+                        <input type="text" name="dianpuid" style="width: 150px">
 
 
-
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">绑定</button>
+                        <button class="btn btn-lg btn-primary btn-block0" type="submit">绑定</button>
 
                     </form>
                 </div>
 
         </div>
 
-<!--        <div>-->
-<!--            <p>published: 14.06.2014, 12:14</p>-->
-<!--            <h2><a href="">My second post</a></h2>-->
-<!--            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>-->
-<!--        </div>-->
     </body>
 </html>

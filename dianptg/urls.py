@@ -25,4 +25,6 @@ app_name = "dianptg"
 urlpatterns = [
     path('',views.post_list),
     url(r'^bangding/$',views.bangdingview.as_view(success_url="/"),name='bangding'),
+    url(r'^adddianpudatebase/$',views.adddianpudatebase),
+    url(r'^bangdinghou/$',views.bangdinghou),
     ]
